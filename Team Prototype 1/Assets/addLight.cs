@@ -19,7 +19,7 @@ public class addLight : MonoBehaviour
     void Update()
     {
   
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0) /*&& nightmode === true*/)
         {
             RaycastHit hit;
             Ray ray = thecamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
