@@ -8,6 +8,7 @@ public class addLight : MonoBehaviour
     public GameObject create;
     static public Queue<GameObject> lightCollection = new Queue<GameObject>(); 
     static public int lightCount = 0;
+    public ModeSwitch modeSwitch;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class addLight : MonoBehaviour
     void Update()
     {
   
-        if (Input.GetMouseButtonDown(0) /*&& nightmode === true*/)
+        if (Input.GetMouseButtonDown(0) && modeSwitch.nightmode == true)
         {
             RaycastHit hit;
             Ray ray = thecamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
