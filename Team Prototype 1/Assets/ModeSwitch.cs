@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ModeSwitch : MonoBehaviour
 {
-    public GameObject Terrain1;
+    public GameObject Terrain;
     public GameObject Terrain2;
     public Light Light1;
     public Light Light2;
@@ -15,9 +15,9 @@ public class ModeSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Terrain t1 = Terrain1.gameObject.GetComponent<Terrain>();
+        Terrain t1 = Terrain.gameObject.GetComponent<Terrain>();
         t1.enabled = true;
-        Collider cr1 = Terrain1.gameObject.GetComponent<TerrainCollider>();
+        Collider cr1 = Terrain.gameObject.GetComponent<TerrainCollider>();
         cr1.enabled = true;
 
         Light l1 = Light1.gameObject.GetComponent<Light>();
@@ -50,9 +50,9 @@ public class ModeSwitch : MonoBehaviour
 
             if (terrain1Active == true && terrain2Active == false)
             {
-                Terrain t1 = Terrain1.gameObject.GetComponent<Terrain>();
+                Terrain t1 = Terrain.gameObject.GetComponent<Terrain>();
                 t1.enabled = false;
-                Collider cr1 = Terrain1.gameObject.GetComponent<TerrainCollider>();
+                Collider cr1 = Terrain.gameObject.GetComponent<TerrainCollider>();
                 cr1.enabled = false;
 
                 Light l1 = Light1.gameObject.GetComponent<Light>();
@@ -72,9 +72,9 @@ public class ModeSwitch : MonoBehaviour
             }
             else if (terrain1Active == false && terrain2Active == true)
             {
-                Terrain t1 = Terrain1.gameObject.GetComponent<Terrain>();
+                Terrain t1 = Terrain.gameObject.GetComponent<Terrain>();
                 t1.enabled = true;
-                Collider cr1 = Terrain1.gameObject.GetComponent<TerrainCollider>();
+                Collider cr1 = Terrain.gameObject.GetComponent<TerrainCollider>();
                 cr1.enabled = true;
 
                 Light l1 = Light1.gameObject.GetComponent<Light>();

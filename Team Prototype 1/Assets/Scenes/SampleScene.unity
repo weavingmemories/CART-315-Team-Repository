@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 203838190f7ffaf4db4d46c8b78c625b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Terrain1: {fileID: 167026077}
+  Terrain: {fileID: 167026077}
   Terrain2: {fileID: 278366268}
   Light1: {fileID: 398844953}
   Light2: {fileID: 1665023417}
@@ -1125,6 +1125,7 @@ MonoBehaviour:
   platform: {fileID: 5487862056250682578, guid: a5b51ee15065f4245ac283c976a5b368,
     type: 3}
   camera: {fileID: 1620826648}
+  modeSwitch: {fileID: 1471396342}
 --- !u!114 &1471396347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1139,7 +1140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thecamera: {fileID: 1620826648}
   create: {fileID: 742292593739594164, guid: ecfb018b55f73354da8663ea47d97bdd, type: 3}
-  modeSwitch: {fileID: 0}
+  modeSwitch: {fileID: 1471396342}
 --- !u!1 &1620826648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
