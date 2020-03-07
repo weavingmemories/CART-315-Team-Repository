@@ -15,6 +15,7 @@ public class BecomePlatform : MonoBehaviour
     public int collisionCount = 0;
     public bool deactivate = false;
     public Material deadMaterial;
+    static public Queue<GameObject> platformCollection = new Queue<GameObject>();
 
 
     void OnCollisionEnter(Collision collision)
@@ -22,6 +23,7 @@ public class BecomePlatform : MonoBehaviour
         collisionCount++;
         if (collisionCount >= 4)
         {
+            this.gameObject.GetComponent<Light>().intensity = 0;
             deactivate = true;
             gameObject.GetComponent<MeshRenderer>().material = deadMaterial;
         }
