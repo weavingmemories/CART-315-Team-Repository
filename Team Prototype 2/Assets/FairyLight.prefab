@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: -5092882756380183953}
   - component: {fileID: 3921410070313273523}
   - component: {fileID: 6433258066808342526}
+  - component: {fileID: 1663976504971298446}
+  - component: {fileID: 760068803329752139}
   m_Layer: 0
   m_Name: FairyLight
   m_TagString: Untagged
@@ -42,9 +44,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742292593739594164}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 9
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.33490568, g: 1, b: 0.9817723, a: 1}
   m_Intensity: 3
   m_Range: 20
@@ -104,9 +105,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 742292593739594164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f6fb08e51ae9c040851bb2b4bba65c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 400f2db301a903d4ab7508cc31295dce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  platform: {fileID: 90953695026456695, guid: a727c5f2761aa084bb213765a3fd6fc6, type: 3}
+  collisionCount: 0
+  deactivate: 0
+  deadMaterial: {fileID: 2100000, guid: ff6663d927968dc4482d24a8495316de, type: 2}
 --- !u!23 &3921410070313273523
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -121,7 +126,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -153,4 +157,34 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742292593739594164}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1663976504971298446
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742292593739594164}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &760068803329752139
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742292593739594164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}

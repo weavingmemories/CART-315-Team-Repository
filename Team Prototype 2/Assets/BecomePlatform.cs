@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class materialize : MonoBehaviour
+public class BecomePlatform : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
 
@@ -30,20 +30,20 @@ public class materialize : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(deactivate == false)
+        if (deactivate == false)
         {
             if (Input.GetMouseButtonDown(1))
             {
-                if (collisionCount > 1 && collisionCount < 4)
+                if (collisionCount < 4)
                 {
                     Quaternion rotation = gameObject.transform.rotation;
                     Vector3 position = gameObject.transform.position;
                     Instantiate(platform, position, rotation);
                     Destroy(gameObject);
                 }
-                
+
             }
         }
-       
+
     }
 }
