@@ -4,41 +4,31 @@ using UnityEngine;
 
 public class KillboxMove : MonoBehaviour
 {
-    private float speed;
-    bool mode1Speed;
-    bool mode2Speed;
-
-    private void Start()
-    {
-        mode1Speed = true;
-        mode2Speed = false;
-    }
+    private float speed = 0.5f;
 
     void FixedUpdate()
     {
-        if (mode1Speed == true && mode2Speed == false)
-        {
-            transform.Translate(Vector2.up * 0.2f * Time.deltaTime);
-        }
-
-        if (mode2Speed == true && mode1Speed == false)
-        {
-            transform.Translate(Vector2.up * 5f * Time.deltaTime);
-        }
-        
+            transform.Translate(Vector2.up * speed * Time.deltaTime);
     }
 
-     void OnTriggerEnter(Collider other)
-    {
+    void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Mode1"))
         {
-            mode1Speed = true;
-            mode2Speed = false;
-        }
-        else if (other.CompareTag("Mode2"))
+            speed = 1.5f;
+        } else if (other.CompareTag("Mode2"))
         {
-            mode1Speed = false;
-            mode2Speed = true;
+            speed = 3f;
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    { 
+    if (other.CompareTag("Mode1"))
+    {
+        speed = 0.5f;
+    } else if (other.CompareTag("Mode2"))
+        {
+            speed = 0.5f;
+        }
+}
 }
