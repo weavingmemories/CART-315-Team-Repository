@@ -20,7 +20,7 @@ public class PlatformThrow : MonoBehaviour
 		{
 			GameObject clone = GameObject.Instantiate(platform, transform.position, platform.transform.rotation);
 
-			clone.GetComponent<Rigidbody>().AddForce(camera.transform.forward * 50, ForceMode.Impulse);
+			clone.GetComponent<Rigidbody>().AddForce(camera.transform.forward * 30, ForceMode.Impulse);
 		}
 
 	}
