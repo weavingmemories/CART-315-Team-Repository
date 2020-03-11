@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KillboxMove : MonoBehaviour
 {
-    private float speed = 0.5f;
+    public float speed = 0.5f;
 
     void FixedUpdate()
     {
