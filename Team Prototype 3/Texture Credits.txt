@@ -7,3 +7,11 @@ https://www.sketchuptextureclub.com/textures/architecture/wood-floors/parquet-da
 *Floor 2 Texture*
 
 https://www.sketchuptextureclub.com/textures/architecture/wood-floors/parquet-medium/parquet-medium-color-pbr-texture-seamless-21468
+
+*Wall 1 Texture*
+
+https://www.sketchuptextureclub.com/textures/materials/wallpaper/damask/damask-wallpaper-texture-seamless-10954
+
+*Wall 2 Texture*
+
+https://www.sketchuptextureclub.com/textures/materials/wallpaper/floral/floral-wallpaper-texture-seamless-11056
