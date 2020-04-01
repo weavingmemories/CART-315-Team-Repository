@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7907724012243125274}
   m_Layer: 0
   m_Name: LightBall
-  m_TagString: Untagged
+  m_TagString: lightBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,4 +184,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98dd5b544ec354e46a0a5f75306d552c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fairyLight: {fileID: 742292593739594164}

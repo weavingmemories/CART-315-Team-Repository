@@ -10,9 +10,9 @@ public class decay : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float decayFactor = 1f / 600f;
+        float decayFactor = 1f / 50f;
         this.gameObject.GetComponent<Light>().intensity -= decayFactor ;
-        if (this.gameObject.GetComponent<Light>().intensity <= 0.2f)
+        if (this.gameObject.GetComponent<Light>().intensity <= 0.01f)
         {
             Destroy(this.gameObject);
         }

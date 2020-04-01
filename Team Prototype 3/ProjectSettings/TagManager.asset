@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+  - lightBall
+  - locked
+  - unlocked
   layers:
   - Default
   - TransparentFX
