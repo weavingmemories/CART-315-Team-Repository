@@ -5,11 +5,13 @@ using UnityEngine;
 public class DoorUnlock: MonoBehaviour
 {
     public GameObject thisLock;
-    Collider doorCollider
+    private Collider doorCollider;
+    private MeshRenderer doorRender;
     // Start is called before the first frame update
     void Start()
     {
         doorCollider = GetComponent<Collider>();
+        doorRender = GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -17,7 +19,8 @@ public class DoorUnlock: MonoBehaviour
     {
         if(thisLock.tag == "unlocked")
         {
-            doorCollider.enabled = !m_Collider.enabled;
+            doorCollider.enabled = false;
+            doorRender.enabled = false;
         }
     }
 }
