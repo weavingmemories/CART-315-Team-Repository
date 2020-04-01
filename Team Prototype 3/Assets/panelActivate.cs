@@ -8,7 +8,7 @@ public class panelActivate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.gameObject.GetComponent<Light>().color = Color.red;
     }
 
     // Update is called once per frame
@@ -20,6 +20,7 @@ public class panelActivate : MonoBehaviour
         {
             this.gameObject.transform.tag = "unlocked";
             this.gameObject.GetComponent<Light>().intensity = 5;
+            this.gameObject.GetComponent<Light>().color = Color.green;
             Debug.Log(this.gameObject.tag);
         }
     }
