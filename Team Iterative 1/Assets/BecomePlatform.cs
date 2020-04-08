@@ -13,7 +13,6 @@ public class BecomePlatform : MonoBehaviour
 
     public Transform platform;
 
-
     // Update is called once per frame
     void Update()
     {
