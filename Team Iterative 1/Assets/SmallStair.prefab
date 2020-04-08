@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_Name
-      value: Staircase2
+      value: SmallStair
       objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}

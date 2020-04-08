@@ -197,7 +197,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eb0acb096166c34ab6bd03885b807b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
-  collisionCount: 0
-  deactivate: 0
-  deadMaterial: {fileID: 0}
+  platform: {fileID: 90953695026456695, guid: 621f1018bf63dea47af60bbe3bb450a1, type: 3}
