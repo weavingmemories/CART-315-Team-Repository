@@ -309,16 +309,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 825421531}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -388,6 +378,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -519,16 +519,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 406145492}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -598,6 +588,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -703,16 +703,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1499065604}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -782,6 +772,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -1614,16 +1614,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 687349566}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1693,6 +1683,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -2351,16 +2351,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2023243079}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2430,6 +2420,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -3267,16 +3267,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 348500}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3346,6 +3336,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -3724,16 +3724,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2118938773}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3804,6 +3794,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
 --- !u!1001 &891454821
@@ -3813,16 +3813,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042342612}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3892,6 +3882,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -4015,7 +4015,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937640240}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &937640242
 Camera:
   m_ObjectHideFlags: 0
@@ -4181,16 +4181,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1678330398}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4260,6 +4250,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -4468,16 +4468,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1378145889}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4547,6 +4537,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -5306,16 +5306,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Staircase3
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5370,6 +5360,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Staircase3
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -5558,16 +5558,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 63396479}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5637,6 +5627,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -5773,16 +5773,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 823960144}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5852,6 +5842,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -6052,16 +6052,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 382546667}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6132,6 +6122,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
 --- !u!4 &1706355657 stripped
@@ -6153,16 +6153,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1683425914}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6232,6 +6222,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -6405,16 +6405,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 529835224}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6484,6 +6474,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -6767,16 +6767,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 16968667}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6846,6 +6836,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -6936,6 +6936,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b6da9a24285e404ca830d6accf4cc5c, type: 2}
+    - target: {fileID: -1504981713932161579, guid: e6cf56f71f0411a4494eb96b631f3849,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6860895033569716450, guid: e6cf56f71f0411a4494eb96b631f3849,
         type: 3}
       propertyPath: m_Convex
@@ -7050,16 +7055,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 901933171}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7129,6 +7124,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -7442,16 +7447,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 615740438}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Stair (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7521,6 +7516,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Stair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
@@ -7632,16 +7637,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Name
-      value: Staircase1
-      objectReference: {fileID: 0}
-    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 504631005540710615, guid: 9d44228da5e5702409d871a2399e0a29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7696,6 +7691,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Name
+      value: Staircase1
+      objectReference: {fileID: 0}
+    - target: {fileID: 504631005540710611, guid: 9d44228da5e5702409d871a2399e0a29,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d44228da5e5702409d871a2399e0a29, type: 3}
