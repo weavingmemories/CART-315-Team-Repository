@@ -20,9 +20,9 @@ public class BecomePlatform : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
                 
-            Quaternion rotation = gameObject.transform.rotation;
+            //Quaternion rotation = gameObject.transform.rotation;
             Vector3 position = gameObject.transform.position;
-            Instantiate(platform, position, rotation);
+            Instantiate(platform, position, Quaternion.identity);
             Destroy(gameObject);
 
         }
