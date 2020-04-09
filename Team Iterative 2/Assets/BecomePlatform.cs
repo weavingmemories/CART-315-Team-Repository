@@ -22,7 +22,7 @@ public class BecomePlatform : MonoBehaviour
                 
             //Quaternion rotation = gameObject.transform.rotation;
             Vector3 position = gameObject.transform.position;
-            Instantiate(platform, position, Quaternion.identity);
+            Instantiate(platform, position, Quaternion.Euler(-90, 0, 0));
             Destroy(gameObject);
 
         }
