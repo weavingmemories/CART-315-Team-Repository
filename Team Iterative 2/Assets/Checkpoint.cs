@@ -17,6 +17,7 @@ public class Checkpoint : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Setting the checkpoint");
             respawnPoint = this.gameObject.transform;
         }
     }

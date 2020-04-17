@@ -20,10 +20,11 @@ public class RestartLevel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            checkpointScript = checkpoint.GetComponent<Checkpoint>();
             //   Scene scene;
             //   scene = SceneManager.GetActiveScene();
             //   SceneManager.LoadScene(scene.name);
-            
+            Debug.Log("Colliding with death");
             player.transform.position = checkpointScript.respawnPoint.transform.position;
             Physics.SyncTransforms();
 

@@ -6856,6 +6856,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: killbox (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e6cf56f71f0411a4494eb96b631f3849,
+        type: 3}
+      propertyPath: m_TagString
+      value: killbox
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e6cf56f71f0411a4494eb96b631f3849,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7055,16 +7060,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1071910752767162437, guid: 2427201190f760342acac4af31e463e2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -416207501082722227, guid: 2427201190f760342acac4af31e463e2,
-        type: 3}
-      propertyPath: respawnPoint
-      value: 
-      objectReference: {fileID: 903069068}
     - target: {fileID: 8862215585051261955, guid: 2427201190f760342acac4af31e463e2,
         type: 3}
       propertyPath: m_Name
@@ -7125,6 +7120,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1071910752767162437, guid: 2427201190f760342acac4af31e463e2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -416207501082722227, guid: 2427201190f760342acac4af31e463e2,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 903069068}
     m_RemovedComponents:
     - {fileID: 1071910752767162437, guid: 2427201190f760342acac4af31e463e2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2427201190f760342acac4af31e463e2, type: 3}
@@ -7849,11 +7854,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -416207501082722227, guid: 2427201190f760342acac4af31e463e2,
-        type: 3}
-      propertyPath: respawnPoint
-      value: 
-      objectReference: {fileID: 2064184336}
     - target: {fileID: 8862215585051261955, guid: 2427201190f760342acac4af31e463e2,
         type: 3}
       propertyPath: m_Name
@@ -7914,6 +7914,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -416207501082722227, guid: 2427201190f760342acac4af31e463e2,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 2064184336}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2427201190f760342acac4af31e463e2, type: 3}
 --- !u!1 &1645260247
@@ -8733,11 +8738,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -416207501082722227, guid: 2427201190f760342acac4af31e463e2,
-        type: 3}
-      propertyPath: respawnPoint
-      value: 
-      objectReference: {fileID: 1699086516}
     - target: {fileID: 8862215585051261955, guid: 2427201190f760342acac4af31e463e2,
         type: 3}
       propertyPath: m_Name
@@ -8798,6 +8798,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -416207501082722227, guid: 2427201190f760342acac4af31e463e2,
+        type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1699086516}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2427201190f760342acac4af31e463e2, type: 3}
 --- !u!1001 &1825135646
@@ -9360,6 +9365,11 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: e6cf56f71f0411a4494eb96b631f3849,
         type: 3}
       propertyPath: m_Name
+      value: killbox
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e6cf56f71f0411a4494eb96b631f3849,
+        type: 3}
+      propertyPath: m_TagString
       value: killbox
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e6cf56f71f0411a4494eb96b631f3849,
