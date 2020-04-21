@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    [SerializeField] public Transform respawnPoint;
+    [SerializeField] public static Transform respawnPoint;
 
     // Start is called before the first frame update
     void Start()

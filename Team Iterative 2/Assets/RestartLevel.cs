@@ -25,7 +25,9 @@ public class RestartLevel : MonoBehaviour
             //   scene = SceneManager.GetActiveScene();
             //   SceneManager.LoadScene(scene.name);
             Debug.Log("Colliding with death");
-            player.transform.position = checkpointScript.respawnPoint.transform.position;
+            player.transform.position = Checkpoint.respawnPoint.transform.position;
+            gameObject.transform.position = player.transform.position;
+            gameObject.transform.position = new Vector3(0, -10, 0);
             Physics.SyncTransforms();
 
         }
