@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LightThrow: MonoBehaviour
 {
-	public GameObject platform;
+	public GameObject ball;
 	public GameObject camera;
 
 	// Start is called before the first frame update
@@ -18,7 +18,7 @@ public class LightThrow: MonoBehaviour
 	{
 		if (Input.GetMouseButtonDown(0))
 		{
-			GameObject clone = GameObject.Instantiate(platform, transform.position, platform.transform.rotation);
+			GameObject clone = GameObject.Instantiate(ball, transform.position, ball.transform.rotation);
 
 			clone.GetComponent<Rigidbody>().AddForce(camera.transform.forward * 30, ForceMode.Impulse);
 		}
