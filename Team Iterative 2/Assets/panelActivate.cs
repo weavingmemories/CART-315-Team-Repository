@@ -15,6 +15,7 @@ public class panelActivate : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("touched");
         if (collision.gameObject.tag == "lightBall")
         {
             this.gameObject.transform.tag = "unlocked";
